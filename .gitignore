@@ -1,0 +1,39 @@
+# Logs and temporary files
+logs/
+tmp/
+cache/
+*.log
+*.tmp
+
+# Bitnami specific directories
+/opt/bitnami/apache2/logs/
+/opt/bitnami/mysql/data/
+/opt/bitnami/php/tmp/
+/opt/bitnami/stats/
+/opt/bitnami/apps/phpmyadmin/htdocs/tmp/
+/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads/
+/opt/bitnami/apps/APPNAME/htdocs/tmp/
+
+# Apache and PHP specific files
+.htaccess
+php.ini
+
+# Sensitive configuration files
+.env
+/opt/bitnami/apps/APPNAME/conf/htaccess.conf
+/opt/bitnami/apps/APPNAME/conf/httpd-app.conf
+/opt/bitnami/apps/APPNAME/conf/httpd-prefix.conf
+/opt/bitnami/apps/APPNAME/conf/httpd-vhosts.conf
+
+# Vendor and node modules
+vendor/
+node_modules/
+
+# System specific files
+.DS_Store
+Thumbs.db
+
+# User-uploaded content
+uploads/
+storage/
+public/uploads/
